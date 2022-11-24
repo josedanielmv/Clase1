@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Marcs Games"
+        android:textColor="#0000ff"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:id="@+id/txtCelularCorreo"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:hint="número de celular o correo electrónico"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:hint="Contraseña"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="380dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="IniciarSesion"
+        android:text="Iniciar sesión"
+        android:textSize="18dp"></Button>
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#0000ff"
+        android:textSize="18sp"></TextView>
+
+
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="CrearCuentaNueva"
+        android:text="Crear cuenta nueva"
+        android:textSize="15dp"></Button>
+
+</LinearLayout>

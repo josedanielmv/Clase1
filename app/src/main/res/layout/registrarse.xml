@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registrarse">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Registro Usuario"
+        android:textColor="#0000ff"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:id="@+id/txtDocumentoIdentidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Documento de identidad"
+        android:textSize="18dp"></EditText>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nombre"
+        android:textSize="18dp"></EditText>
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Correo"
+        android:textSize="18dp"></EditText>
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Telefono"
+        android:textSize="18dp"></EditText>
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Contrasena"
+        android:textSize="18dp"></EditText>
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Registrarse"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Consultar"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Actualizar"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Eliminar"
+        android:textSize="18dp"></Button>
+
+</LinearLayout>
